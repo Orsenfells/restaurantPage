@@ -1,0 +1,23 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+nav {
+    background-color: #f6f3ee;
+    height: 62px;
+    display: flex;
+}
+.tab {
+    background-color: #5a5243;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.tab:focus {
+    background-color: white;
+    color: #5a5243;
+} 
