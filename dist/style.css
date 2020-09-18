@@ -11,13 +11,30 @@ nav {
     height: 62px;
     display: flex;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .tab {
     background-color: #5a5243;
     border: none;
     color: white;
     font-size: 15px;
 }
-.tab:focus {
+img {
+    height: 500px
+}
+.activeTab {
     background-color: white;
     color: #5a5243;
+}
+.hero {
+    background-image: url('../Bakery-Hero.jpg');
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 } 

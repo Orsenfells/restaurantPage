@@ -1,9 +1,9 @@
 import removeAddClass from './page-load'
 
-const menu = () => {
+const contact = () => {
     let main = document.querySelector('main');
     main.textContent = "";
-    removeAddClass(menuTab, homeTab, contactTab);
+    removeAddClass(contactTab, menuTab, homeTab)
 }
 
-export default menu;
+export default contact;
