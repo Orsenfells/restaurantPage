@@ -31,21 +31,29 @@ const pageLoad = () => {
 }
 
 const home = () => {
+    if(homeTab.classList.contains('activeTab')) {
+        return;
+    }
+    
     removeAddClass(homeTab, menuTab, contactTab)
+    
+    main.textContent = "";
     let hometab = document.getElementById('homeTab');
     hometab.classList.add('activeTab')
     let hero = document.createElement('div');
     let head = document.createElement('h1');
     hero.classList.add('hero');
     let fluff = document.createElement('p');
-
-    head.textContent = "Mary's Bakery";
-
+    let madeFresh = document.createElement('div');
+    madeFresh.classList.add('madeFresh');
+    head.textContent = "Mary's Bakery";    
     fluff.textContent = 'Authentic Mexican food and pastries made fresh';
+    madeFresh.appendChild(fluff);
     hero.appendChild(head)
     main.appendChild(hero)
+    main.appendChild(madeFresh)
     
-    main.appendChild(fluff)
+    
 
     content.appendChild(main);
 }
