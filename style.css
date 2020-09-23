@@ -5,9 +5,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Dosis', sans-serif;
+    background-color: #39392f;
+    font-family: 'Oswald', sans-serif;
 }
 nav {
-    background-color: #f6f3ee;
+    background-color: #39392f;
     height: 62px;
     display: flex;
 }
@@ -22,19 +24,53 @@ main {
     color: white;
     font-size: 15px;
 }
-img {
-    height: 500px
-}
+
 .activeTab {
     background-color: white;
     color: #5a5243;
 }
 .hero {
-    background-image: url('../Bakery-Hero.jpg');
+    background-image: url('../images/Bakery-Hero.jpg');
     background-size: cover;
-    height: 40vh;
+    height: 57vh;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    color: white;
+    text-shadow: 0 0 3px black, 0 0 3px black, 0 0 1px black, 0 0 1px black;
     justify-content: center;
-} 
+    align-items: center;
+}
+.hero h1 {
+    padding-bottom: 43px;
+    font-size: 7vh;
+}
+
+.madeFresh {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    background-color: #d7b490;
+    justify-content: center;
+    align-items: center;
+}
+.madeFresh p {
+    font-size: 3vh;
+}
+.menuContainer {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+
+}
+
+.menuItem {
+    max-width: 100%;
+    max-height: 100%;
+}
+.menuItem p {
+    color: white;
+    font-size: 3vh;
+}
