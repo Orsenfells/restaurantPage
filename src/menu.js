@@ -24,10 +24,10 @@ const menu = () => {
     conchaBlurb.textContent = "Conchas - Tasty Mexican Sweet Bread!"
     caldoBlurb.textContent = "Caldo de Res Home In a Bowl"
     tresLechesBlurb.textContent = "Tres Leches - Three Milk Cake"
-    cookies.src = '../images/cookie.jpeg';
-    concha.src = '../images/concha.jpeg';
-    caldo.src = '../images/caldo1.jpg';
-    tresLeches.src = '../images/tresleches.jpg';
+    cookies.src = 'images/cookie.jpeg';
+    concha.src = 'images/concha.jpeg';
+    caldo.src = 'images/caldo1.jpg';
+    tresLeches.src = 'images/tresleches.jpg';
     menuItem1.classList.add('menuItem');
     menuItem2.classList.add('menuItem');
     menuItem3.classList.add('menuItem');
