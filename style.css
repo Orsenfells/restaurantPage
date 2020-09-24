@@ -30,7 +30,7 @@ main {
     color: #5a5243;
 }
 .hero {
-    background-image: url('../images/Bakery-Hero.jpg');
+    background-image: url('images/Bakery-Hero.jpg');
     background-size: cover;
     height: 57vh;
     width: 100%;
